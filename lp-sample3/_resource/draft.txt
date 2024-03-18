@@ -1,0 +1,86 @@
+----------【HTML】----------
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Self-introduction</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://kit.fontawesome.com/b68fb17dce.js" crossorigin="anonymous"></script>
+</head>
+
+----------
+Profile
+
+プロフィール画像
+
+生年月日
+学校名
+学年
+ニックネーム
+
+出身地
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51843.82065612994!2d139.6955122332177!3d35.695740961776316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f1!3m3!1m2!1s0x60188d3e982754b9%3A0x2e95795e898cc083!2z5p2x5Lqs44OH44K244Kk44Oz44OG44Kv44OO44Ot44K444O844K744Oz44K_44O85bCC6ZaA5a2m5qCh!5e0!3m2!1sja!2sjp!4v1682197567518!5m2!1sja!2sjp" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+長所
+短所
+
+----------
+Favorite
+
+好きなWebサイト
+リンク付きテキスト
+
+好きなアプリ
+テキスト
+好きな色
+色を変える
+
+好きな動物
+箇条書き
+
+好きな食べ物
+好きな季節
+好きな場所
+好きな言葉
+好きな人物
+好きな教科
+好きなスポーツ
+好きな本（マンガ／小説／他）
+好きな映画／ドラマ／アニメ
+好きな番組（テレビ／ラジオ／ネット放送）
+好きなゲーム
+
+大乱闘スマッシュブラザーズ 
+<iframe class="youtube" width="380" src="https://www.youtube.com/embed/uHJpaYpPTHg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+----------
+Link
+
+<i class="fab fa-twitter"></i>
+
+<i class="fab fa-facebook-square"></i>
+
+<i class="fab fa-instagram-square"></i>
+
+<i class="fab fa-youtube"></i>
+
+<i class="fab fa-tiktok"></i>
+
+----------
+
+
+----------【CSS】----------
+
+@import "https://unpkg.com/ress/dist/ress.min.css";
+
+洸希 椙本	"cookpad
+pub.dev"	"zozo
+"	小麦色	"猫
+ビーバー"	"馬刺し
+卵かけご飯"	春夏秋冬	実家	回帰願望	中崎淳	現代文	"バスケ
+スキー・スノーボード"	"事情
+センセイの鞄"	"blue giant
+アオザクラ防衛大学校物語
+宇宙兄弟"	adoのスペース	ドラクエ	"人と話すこと
+お酒を飲むこと"			やったことのない声真似を62点くらいでできる。やるたびに下手になる。	食洗機、広い台所、広い部屋	オペラ	勉強でも筋トレでも家事でもなんでもいいから2~3個頑張って、「いや〜！今日も頑張ったなぁ！」って酒を飲む。

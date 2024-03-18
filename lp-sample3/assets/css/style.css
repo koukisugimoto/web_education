@@ -1,0 +1,165 @@
+@import "https://unpkg.com/ress/dist/ress.min.css";
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.6em;
+    line-height: 1;
+    color: #212121;
+    background: #efefef;
+}
+
+
+main {
+    width: 1000px;
+    padding: 80px;
+    margin: 100px auto;
+    background: #fff;
+    margin-top: 0;
+}
+
+h1 {
+    margin: 12px 0 100px;
+    text-align: center;
+}
+
+.g-nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+.g-nav a {
+    display: block;
+    width: calc(100% / 3);
+    text-align: center;
+    padding: 2em;
+    background: #212121;
+    color: white;
+    transition: 0.5s;
+}
+.g-nav a:hover {
+    background: #3b3b3b;
+    text-decoration: none;
+}
+.g-nav a + a {
+    border-left: 1px solid white;
+}
+
+section{
+    scroll-margin-top: 88px;
+}
+
+section h2 {
+    width: 100%;
+}
+section p {
+    padding: 0 1em;
+    line-height: 1.8;
+}
+section ul {
+    padding: 0 2em;
+}
+section li {
+    line-height: 1.8;
+}
+section img {
+    display: block;
+    margin: 8px 0;
+}
+section + section {
+    margin-top: 40px;
+}
+section iframe.youtube {
+    aspect-ratio: 16/9;
+}
+
+
+.left-area,
+.right-area {
+    width: 50%;
+}
+
+
+h2 {
+    line-height: 2;
+    text-align: center;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    margin-bottom: 1em;
+}
+
+h3 {
+    line-height: 1.5;
+    padding-left: 0.5em;
+    border-left: 8px solid #000;
+    margin-bottom: 0.5em;
+}
+h3:nth-of-type(n + 2) {
+    margin-top: 1.5em;
+}
+
+
+#profile {
+    display: flex;
+    flex-wrap: wrap;
+}
+#profile img {
+    display: block;
+    margin: auto;
+}
+#profile .my-name {
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0.5em 0 1em;
+}
+
+
+#favorite {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fav-color {
+    color: purple;
+}
+
+
+#link {
+    text-align: center;
+}
+#link a {
+    font-size: 3em;
+    color: inherit;
+}
+#link a:nth-last-of-type(n + 2) {
+    margin-left: 0.5em;
+}
+#link a i {
+    transition: 0.5s;
+}
+#link .fa-twitter:hover {
+    color: #01AAEC;
+}
+#link .fa-facebook-square:hover {
+    color: #23589f;
+}
+#link .fa-instagram-square:hover {
+    color: #dd2a7b;
+}
+#link .fa-youtube:hover {
+    color: #f40000;
+}
+#link .fa-tiktok:hover {
+    color: #64c0c7;
+}
