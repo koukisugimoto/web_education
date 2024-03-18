@@ -1,0 +1,296 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+	font-family: 'Toppan Bunkyu Mincho'; font-weight: normal;
+}
+
+body {
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    margin: 5em 0 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body li {
+    list-style: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+header ul {
+    display: flex;
+    margin: 0;
+}
+
+header li {
+    padding: 28px 5px;
+}
+
+header a {
+    font-size: 25px;
+}
+
+header img {
+    width: 400px;
+    height: 40px;
+    margin: auto 20px auto 0;
+}
+
+.to-hp {
+    padding: 28px 20px;
+}
+
+
+.top-img,
+.ad,
+.message,
+.links,
+.to-HP {
+    text-align: center;
+}
+.top-img img {
+    width: 98%;
+    /* margin-top: 20px; */
+}
+
+.ad {
+    margin-top: 5em;
+}
+
+#news,
+#new-arrival {
+    display: flex;
+    justify-content: center;
+}
+
+.news-product {
+    width: 200px;
+    margin: 10px;
+}
+
+.news-product img {
+    width: 200px;
+}
+
+.newsText {
+    margin-top: 40px;
+}
+
+
+#new-arrival .images h4 {
+    margin: 0;
+}
+
+.product {
+    display: flex;
+    text-align: center;
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.product .text {
+    width: 350px;
+    margin-right: 50px;
+}
+
+.product .detail {
+    font-size: 0.9em;
+    margin-top: 0;
+}
+
+.product h3 {
+    margin-bottom: 0;
+}
+.product h4 {
+    margin: 0;
+    font-size: 10px;
+}
+
+.pro-images {
+    width: 400px;
+}
+
+
+/* .product:nth-child(2) {
+    background: #F9C1CF;
+} */
+
+.ranking {
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+
+.ranking-area {
+    text-align: center;
+}
+
+.ranking-area:nth-child(2) {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+.ranking-area .rank {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.ranking img {
+    width: 150px;
+}
+
+.ranking h4 {
+    margin: 10px 0;
+}
+
+.ranking-anchor {
+    display: block;
+    margin: auto;
+}
+
+.message {
+    margin-bottom: 5em;
+}
+.message img {
+    width: 800px;
+}
+
+.sns-links {
+    margin: auto;
+    padding: 120px 0;
+    background: #e2e8ef;
+}
+
+.sns-links h2 {
+    margin-top: 0;
+}
+
+.links a {
+    margin: 0 30px;
+}
+
+.links img {
+    width: 150px;
+    vertical-align: middle;
+}
+
+.to-HP {
+    padding: 200px 0;
+    background: url(../img/アロマと花-コピー.jpg);
+    background-color: rgba(255, 255, 255, 0.4);
+    background-blend-mode: lighten;
+}
+
+.to-HP img {
+    width: 500px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+}
+
+.to-HP .official {
+    margin: 30px;
+}
+
+.btn {
+    color: black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    padding: 10px 30px;
+    background: rgba(255, 255, 255, 0.8);
+  }
+  
+.btn::after {
+    content: ">";
+    margin-left: 1em;
+}
+  
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    height: 30px;
+}
+
+.accordion p {
+    font-size: 1.1em;
+}
+
+.accordion span {
+    font-size: 1.2em;
+    /* color: red; */
+}
+
+.accordion {
+    margin: 3em auto;
+    max-width: 60vw;
+    }
+    .toggle {
+    display: none;
+    }
+    .option {
+    position: relative;
+    margin-bottom: 1em;
+    }
+    .title,
+    .content {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: all 0.3s;
+    }
+    .title {
+    border: solid 1px #ccc;
+    padding: 1em;
+    display: block;
+    color: #333;
+    font-weight: bold;
+    }
+    .title::after,
+    .title::before {
+    content: "";
+    position: absolute;
+    right: 1.25em;
+    top: 1.25em;
+    width: 2px;
+    height: 0.75em;
+    background-color: #999;
+    transition: all 0.3s;
+    }
+    .title::after {
+    transform: rotate(90deg);
+    }
+    .content {
+    max-height: 0;
+    overflow: hidden;
+    background: #e4f3f8;
+    }
+    .content p {
+    margin: 0;
+    padding: 0.5em 1em 1em;
+    line-height: 1.5;
+    }
+    .toggle:checked + .title + .content {
+    max-height: 500px;
+    transition: all 1.5s;
+    }
+    .toggle:checked + .title::before {
+    transform: rotate(90deg) !important;
+    }

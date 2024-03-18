@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/img/Kunieda.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.js"></script>
+    <script src="assets/js/jquery-3.6.3.min.js"></script>
+    <title>Koki Sugimoto</title>
+</head>
+
+<body>
+    <header>
+        <h2>My Portfolio</h2>
+        <div class="links">
+            <a href="#">トップ</a>
+            <!-- <a href="#">自己紹介</a> -->
+            <a href="#skill">スキル</a>
+            <a href="#works">ワークス</a>
+            <a href="#contact">コンタクト</a>
+        </div>
+    </header>
+
+    <section id="profile">
+        <a name="top"></a>
+        <h2>About Me</h2>
+        <div class="profile">
+            <img src="assets/img/Kunieda.png" alt="Kunieda">
+            <div class="right">
+                <div class="text">
+                    <h3><ruby>椙<rt>スギ</rt></ruby><ruby>本<rt>モト</rt></ruby> <ruby>洸希<rt>コウキ</rt></ruby></h3>
+                    <p>
+                        長野生まれ富山育ち。<br>
+                        趣味は読書、ゲーム、オリキャラ「フピックス」作成、TRPG。<br>
+                        現在はモバイルアプリエンジニア目指して勉強中。<br>
+                        フピックスは100体を超えLINEスタンプも作成しました。現在オフィシャルサイトやオリジナルゲームの作成中です。
+                    </p>
+                </div>
+                <p>
+                    - Twitter:<a href="https://twitter.com/wakamono_jp" target="_blank">wakamono_jp</a><br>
+                    <!-- - GitHub:<a href="#">GitHub</a><br> -->
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <a name="skill"></a>
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="radarChart">
+                <canvas id="myRadarChart"></canvas>
+            </div>
+            <div class="skill-text">
+                <div class="skill">
+                    <h4>HTML</h4>
+                    <p>
+                        基本的なコーディングができます。<br>
+                        授業内でLPの制作を、個人ではイラストレーターの友人のWebページの作成・公開を行いました。
+                    </p>
+                </div>
+                <div class="skill">
+                    <h4>CSS</h4>
+                    <p>
+                        基本的なものであればそれなりの早さで書くことができます。
+                        HTMLと同じく、授業および個人での制作で大きく能力を伸ばしました。
+                    </p>
+                </div>
+                <div class="skill">
+                    <h4>JavaScript</h4>
+                    <p>
+                        非常に基礎的な要素であれば何度か使用しました。
+                    </p>
+                </div>
+                <div class="skill">
+                    <h4>Flutter</h4>
+                    <p>
+                        他の言語と比べ学習期間はかなり短いですが、現在アプリケーションを開発中です。<br>
+                        今一番力を入れて学習をしています。
+                    </p>
+                </div>
+                <div class="skill">
+                    <h4>Swift</h4>
+                    <p>
+                        簡単なアプリケーションをいくつか作成しました。
+                        現在はFlutterに力を入れている関係上、一旦学習を中断していますがKotlinと併せて学習を進める予定です。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a name="works"></a>
+    <section>
+        <h2 class="works">Works</h2>
+        <div class="accordion">
+            <div class="option">
+                <input type="checkbox" id="toggle1" class="toggle">
+                <label class="title" for="toggle1">web</label>
+                <div class="content">
+                    <div class="worksImage">
+                        <a href="https://coffeeneco.netlify.app" target="_blank"><img src="assets/img/coffeeneco.jpg" alt=""></a>
+                        <p>珈琲neco様のHP</p>
+                    </div>
+
+                    <div class="worksImage">
+                        <a href="LP-sample/index.html" target="_blank"><img src="assets/img/LP.jpg" alt=""></a>
+                        <p>LPサンプル</p>
+                    </div>
+
+                    <!-- <div class="worksImage">
+                        <a href="#"><img src="assets/img/coffeeneco.jpg" alt=""></a>
+                        <p>珈琲neco様のHP</p>
+                    </div> -->
+                </div>
+            </div>
+
+            <div class="option">
+                <input type="checkbox" id="toggle2" class="toggle">
+                <label class="title" for="toggle2">apps</label>
+                <div class="content">
+                    <div class="worksImage">
+                        <video src="assets/videos/helloWorld.mov" controls width="250"></video>
+                        <p>HelloWorldアプリ</p>
+                    </div>
+
+                    <div class="worksImage">
+                        <video src="assets/videos/ドル円.mov" controls width="250"></video>
+                        <p>ドル円換算アプリ</p>
+                    </div>
+
+                    <div class="worksImage">
+                        <video src="assets/videos/カウント.mov" controls width="250"></video>
+                        <p>カウントアプリ</p>
+                    </div>
+
+                    <div class="worksImage">
+                        <video src="assets/videos/clapBeat.mov" controls width="250"></video>
+                        <p>手拍子アプリ</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="option">
+                <input type="checkbox" id="toggle3" class="toggle">
+                <label class="title" for="toggle3">ather</label>
+                <div class="content">
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <a name="contact"></a>
+        <h2>Contact</h2>
+        <div class="contact">
+            <input class="contactText" type="text" placeholder="Name"><br>
+            <input class="contactText" type="text" placeholder="Address"><br>
+            <textarea name="message" id="message" cols="90" rows="10" placeholder="Message"></textarea>
+        </div>
+    </section>
+
+
+    <script src="assets/js/skills.js"></script>
+    <script src="assets/js/works.js"></script>
+    
+</body>
+<footer>
+
+</footer>
+
+</html>
